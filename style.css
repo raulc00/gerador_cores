@@ -1,0 +1,98 @@
+#h1_caixa{
+
+    background-color: white;
+    width: 50%;
+    height: 65px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* #container_menu{
+
+    width: 35px;
+    
+} */
+
+/* #menu_teste{
+
+    display: none;
+    background-color: blue;
+} */
+
+/* .show{
+
+    display: block;
+}
+
+#menu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    
+} */
+
+h1{
+
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+h2{
+
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes bt_animacao{
+
+    0%{background-color: white;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    75%{background-color: blue;}
+    100%{background-color: red;}
+    
+
+ }
+
+#id_cor{
+
+    text-shadow: 1px 1px gray;
+}
+
+
+#bt_cor{
+
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    /* animation-name: bt_animacao;
+    animation-duration: 4s; */
+
+}
+
+#menu_cor{
+
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#teste{
+
+    background-color: green;
+}
+
+
+
+ 
