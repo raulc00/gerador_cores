@@ -9,30 +9,6 @@
     border-color: black;
 }
 
-/* #container_menu{
-
-    width: 35px;
-    
-} */
-
-/* #menu_teste{
-
-    display: none;
-    background-color: blue;
-} */
-
-/* .show{
-
-    display: block;
-}
-
-#menu{
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    
-} */
 
 h1{
 
@@ -79,18 +55,118 @@ h2{
 
 }
 
-#menu_cor{
+#margin_bt{
+
+    margin-top: 10px;
+}
+
+#bt_salvar{
 
     background-color: white;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
     border-radius: 5px;
     border-style: solid;
     border-color: black;
-    
 }
 
-#teste{
+#margin_cont{
 
-    background-color: green;
+    margin-top: 80px;
+}
+
+#container_favoritos{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+    height: 180px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#bloco_1{
+
+    background-color: white;
+    height: 130px;
+    width: 150px;
+    margin-top: 23px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#bloco_2{
+
+    background-color: white;
+    height: 130px;
+    width: 150px;
+    margin-top: 23px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#bloco_3{
+
+    background-color: white;
+    height: 130px;
+    width: 150px;
+    margin-top: 23px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#bloco_4{
+
+    background-color: white;
+    height: 130px;
+    width: 150px;
+    margin-top: 23px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#bloco_1 p{
+
+    
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#bloco_2 p{
+
+    
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#bloco_3 p{
+
+    
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#bloco_4 p{
+
+    
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 

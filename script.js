@@ -1,6 +1,11 @@
 var cor_atual
 var random_cor 
 
+var bloco_1 = window.document.getElementById('bloco_1')
+var bloco_2 = window.document.getElementById('bloco_2')
+var bloco_3 = window.document.getElementById('bloco_3')
+var block_4 = window.document.getElementById('bloco_4')
+
 function mudar_cor(){
 
     random_cor = Math.floor(Math.random()*16777215).toString(16);
@@ -26,25 +31,28 @@ function hover_bt(){
     window.document.getElementById('bt_cor').style.cursor = "pointer"
 }
 
-function hover_out(){
+function hover_out(id){
 
-    window.document.getElementById('bt_cor').style.animationName = "none"
+    window.document.getElementById(id).style.animationName = "none"
 }
 
-function hover_menu(){
+function hover_salvar(id){
 
-    window.document.getElementById('container_menu').style.cursor = "pointer"
+    window.document.getElementById(id).style.cursor = "pointer"
+    window.document.getElementById(id).querySelector("p").textContent = "+"
 }
 
-// function abre_menu(){
+function hover_salvar_out(id){
 
-//     window.document.getElementById('menu_teste').classList.toggle('show')
-// }
+    window.document.getElementById(id).querySelector("p").textContent = ""
+}
 
-// function salva_cor(){
+function salvar_cor(id){
 
+    window.document.getElementById(id).style.background = window.document.body.style.background
 
-// }
+}
+
 
 // function hover_totodile(){
 
