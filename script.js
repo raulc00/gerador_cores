@@ -1,5 +1,6 @@
 var cor_atual
 var random_cor 
+var cor_h3_atual
 
 var bloco_1 = window.document.getElementById('bloco_1')
 var bloco_2 = window.document.getElementById('bloco_2')
@@ -38,18 +39,26 @@ function hover_out(id){
 
 function hover_salvar(id){
 
+    cor_h3_atual = window.document.getElementById(id).querySelector("h3").textContent
+
     window.document.getElementById(id).style.cursor = "pointer"
     window.document.getElementById(id).querySelector("p").textContent = "+"
+     window.document.getElementById(id).querySelector("h3").style.display = "none"
 }
 
 function hover_salvar_out(id){
 
+    window.document.getElementById(id).querySelector("h3").style.display = "block"
     window.document.getElementById(id).querySelector("p").textContent = ""
+    
 }
 
 function salvar_cor(id){
 
     window.document.getElementById(id).style.background = window.document.body.style.background
+    window.document.getElementById(id).querySelector("h3").textContent = window.document.getElementById('id_cor').innerHTML
+
+    
 
 }
 
