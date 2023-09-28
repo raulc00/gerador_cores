@@ -214,6 +214,128 @@ h2{
  }
 
 
+@media screen and (max-width: 900px) {
+
+    #h1_caixa{
+
+        background-color: white;
+        width: 74%;
+        height: 65px;
+        margin: 0 auto;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    h1{
+
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+    
+    }
+
+    #container_favoritos{
+
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background-color: white;
+        height: 180px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    #bloco_1{
+
+        background-color: white;
+        height: 70px;
+        width: 70px;
+        margin-top: 23px;
+        border-radius: 1px;
+        border-style: solid;
+        border-color: black;
+        transition: background-color 0.5s ease;
+    }
+
+    #bloco_2{
+
+        background-color: white;
+        height: 70px;
+        width: 70px;
+        margin-top: 23px;
+        border-radius: 1px;
+        border-style: solid;
+        border-color: black;
+        transition: background-color 0.5s ease;
+    }
+
+    #bloco_3{
+
+        background-color: white;
+        height: 70px;
+        width: 70px;
+        margin-top: 23px;
+        border-radius: 1px;
+        border-style: solid;
+        border-color: black;
+        transition: background-color 0.5s ease;
+    }
+
+    #bloco_4{
+
+        background-color: white;
+        height: 70px;
+        width: 70px;
+        margin-top: 23px;
+        border-radius: 1px;
+        border-style: solid;
+        border-color: black;
+        transition: background-color 0.8s ease;
+    }
+
+    #bloco_1 h3{
+
+        font-weight: bold;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 15px;
+     }
+
+     #bloco_2 h3{
+
+        font-weight: bold;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 15px;
+     }
+    
+     #bloco_3 h3{
+    
+        font-weight: bold;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 15px;
+     }
+    
+     #bloco_4 h3{
+    
+        font-weight: bold;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 15px;
+     }
+
+    
+    
+}
+
+
 
 
  
