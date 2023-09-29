@@ -299,7 +299,7 @@ h2{
 
         font-weight: bold;
         position: relative;
-        top: 50px;
+        top: 60px;
         text-align: center;
         font-size: 15px;
      }
@@ -308,7 +308,7 @@ h2{
 
         font-weight: bold;
         position: relative;
-        top: 50px;
+        top: 60px;
         text-align: center;
         font-size: 15px;
      }
@@ -317,7 +317,7 @@ h2{
     
         font-weight: bold;
         position: relative;
-        top: 50px;
+        top: 60px;
         text-align: center;
         font-size: 15px;
      }
@@ -326,9 +326,29 @@ h2{
     
         font-weight: bold;
         position: relative;
-        top: 50px;
+        top: 60px;
         text-align: center;
         font-size: 15px;
+     }
+
+     #bloco_1 p{
+
+        display: none;
+     }
+
+     #bloco_2 p{
+
+        display: none;
+     }
+
+     #bloco_3 p{
+
+        display: none;
+     }
+
+     #bloco_4 p{
+
+        display: none;
      }
 
     
